@@ -11,6 +11,16 @@
 		666AE45B2836E426001E313C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666AE45A2836E426001E313C /* ContentView.swift */; };
 		666AE45D2836E429001E313C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666AE45C2836E429001E313C /* Assets.xcassets */; };
 		666AE4602836E429001E313C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666AE45F2836E429001E313C /* Preview Assets.xcassets */; };
+		666AE4682836E454001E313C /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666AE4672836E454001E313C /* Coffee.swift */; };
+		666AE46A2836E689001E313C /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666AE4692836E689001E313C /* Order.swift */; };
+		666AE46D2836E74C001E313C /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666AE46C2836E74C001E313C /* Webservice.swift */; };
+		66943E8D2837DDFD00F316AA /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66943E8C2837DDFC00F316AA /* OrderListViewModel.swift */; };
+		66943E902837E12700F316AA /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66943E8F2837E12700F316AA /* OrderListView.swift */; };
+		66943E922837EB2800F316AA /* CreateOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66943E912837EB2800F316AA /* CreateOrderResponse.swift */; };
+		66943E942837EF5E00F316AA /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66943E932837EF5E00F316AA /* AddCoffeeOrderViewModel.swift */; };
+		66943E962837F4C700F316AA /* CoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66943E952837F4C700F316AA /* CoffeeViewModel.swift */; };
+		66943E982838131F00F316AA /* AddCoffeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66943E972838131F00F316AA /* AddCoffeeView.swift */; };
+		66943E9A283821A500F316AA /* OrderTotalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66943E99283821A500F316AA /* OrderTotalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,17 @@
 		666AE45A2836E426001E313C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		666AE45C2836E429001E313C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		666AE45F2836E429001E313C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		666AE4672836E454001E313C /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		666AE4692836E689001E313C /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		666AE46C2836E74C001E313C /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		666AE46E2836EA86001E313C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		66943E8C2837DDFC00F316AA /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
+		66943E8F2837E12700F316AA /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		66943E912837EB2800F316AA /* CreateOrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderResponse.swift; sourceTree = "<group>"; };
+		66943E932837EF5E00F316AA /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
+		66943E952837F4C700F316AA /* CoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewModel.swift; sourceTree = "<group>"; };
+		66943E972838131F00F316AA /* AddCoffeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeView.swift; sourceTree = "<group>"; };
+		66943E99283821A500F316AA /* OrderTotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTotalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +72,12 @@
 		666AE4572836E426001E313C /* CoffeeOrdering */ = {
 			isa = PBXGroup;
 			children = (
+				66943E8E2837E0ED00F316AA /* Views */,
+				66943E8B2837DDCE00F316AA /* View Models */,
+				666AE46E2836EA86001E313C /* Info.plist */,
+				666AE46B2836E73B001E313C /* Services */,
+				666AE4662836E444001E313C /* Models */,
 				666AE4582836E426001E313C /* CoffeeOrderingApp.swift */,
-				666AE45A2836E426001E313C /* ContentView.swift */,
 				666AE45C2836E429001E313C /* Assets.xcassets */,
 				666AE45E2836E429001E313C /* Preview Content */,
 			);
@@ -65,6 +90,45 @@
 				666AE45F2836E429001E313C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		666AE4662836E444001E313C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				666AE4672836E454001E313C /* Coffee.swift */,
+				666AE4692836E689001E313C /* Order.swift */,
+				66943E912837EB2800F316AA /* CreateOrderResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		666AE46B2836E73B001E313C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				666AE46C2836E74C001E313C /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		66943E8B2837DDCE00F316AA /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				66943E8C2837DDFC00F316AA /* OrderListViewModel.swift */,
+				66943E932837EF5E00F316AA /* AddCoffeeOrderViewModel.swift */,
+				66943E952837F4C700F316AA /* CoffeeViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		66943E8E2837E0ED00F316AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				666AE45A2836E426001E313C /* ContentView.swift */,
+				66943E8F2837E12700F316AA /* OrderListView.swift */,
+				66943E972838131F00F316AA /* AddCoffeeView.swift */,
+				66943E99283821A500F316AA /* OrderTotalView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +203,16 @@
 			files = (
 				666AE45B2836E426001E313C /* ContentView.swift in Sources */,
 				666AE4592836E426001E313C /* CoffeeOrderingApp.swift in Sources */,
+				66943E962837F4C700F316AA /* CoffeeViewModel.swift in Sources */,
+				666AE46A2836E689001E313C /* Order.swift in Sources */,
+				66943E922837EB2800F316AA /* CreateOrderResponse.swift in Sources */,
+				66943E902837E12700F316AA /* OrderListView.swift in Sources */,
+				66943E8D2837DDFD00F316AA /* OrderListViewModel.swift in Sources */,
+				666AE46D2836E74C001E313C /* Webservice.swift in Sources */,
+				66943E942837EF5E00F316AA /* AddCoffeeOrderViewModel.swift in Sources */,
+				66943E982838131F00F316AA /* AddCoffeeView.swift in Sources */,
+				66943E9A283821A500F316AA /* OrderTotalView.swift in Sources */,
+				666AE4682836E454001E313C /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +344,7 @@
 				DEVELOPMENT_TEAM = 3PX6J6VL32;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoffeeOrdering/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +374,7 @@
 				DEVELOPMENT_TEAM = 3PX6J6VL32;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoffeeOrdering/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
